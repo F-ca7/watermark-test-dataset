@@ -1,0 +1,24 @@
+﻿字段		中文说明	字段		中文说明
+FIRMID		客户编号	FDATE		成交日期
+FTIME		成交时间	CONTNUM		成交数量
+SETNUM		交收数量	CONTPRICE	成交价格
+DIFPRICE	订货盈亏	BAILMONEY	履约担保金
+TRADECOMM	交易手续费	BUYORSAL	买卖标识
+OPPFIRMID	对方客户编号	OPENFLAT	订转标识
+OFLATLOSE	转让盈亏(未扣税)	FLATLOSE	转让盈亏(已扣税)
+
+字段补充说明：
+
+• FTIME 成交时间：如91207表示09:12:07，以此类推
+
+• CONTNUM 成交数量：订货的数量
+
+• SETNUM 交收数量：订货以后，办理实际交收的数量(不办理交收前，合约是可以转让的，办理交收就是实际交货拿钱和买货付钱)
+
+• DIFPRICE 订货盈亏：订货价格与当前合约实时结算价格的价格差
+
+• BUYORSAL 买卖标识：B表示买 S表示卖
+
+• FORCEFLAG 订转标识：A表示订货，B表示转让
+
+• OFLATLOSE 转让盈亏：订货价格与转让价格的价格差

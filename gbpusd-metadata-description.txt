@@ -1,0 +1,11 @@
+MT4历史数据中心各货币对外汇交易数据，时间区间为 2001.01.01 到 2012.01.01。时间序列粒度包括：1秒、1分钟、1小时、1天、1个月。
+#	名称	数据类型	数据格式
+1	日期	string		时间格式 YYYY/MM/dd
+2	时刻	string		文本字符串格式
+3	开盘价	float		普通浮点数格式
+4	最高价	float		普通浮点数格式
+5	最低价	float		普通浮点数格式
+6	收盘价	float		普通浮点数格式
+7	成交量	float		普通浮点数格式
+
+http://dataju.cn/Dataju/web/datasetInstanceDetail/43
